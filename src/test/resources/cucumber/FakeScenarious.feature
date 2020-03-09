@@ -9,7 +9,6 @@ Feature: Fake testing
     Then I check username is equal to main url
     Then I check date of updated image is equal to created date
 
-  @Ignore
   Scenario: calculate add
     Given I have a calc with numbers
     When I ask it to say add
@@ -31,7 +30,6 @@ Feature: Fake testing
     When I ask it to say add
     Then it should answer with add result
 
-  @Ignore
   Scenario: Adding a and b1
     Given I have variable a
     And I have variable b

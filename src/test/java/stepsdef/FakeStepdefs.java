@@ -8,9 +8,9 @@ public class FakeStepdefs {
 
 
     //<editor-fold desc="Given">
-    @Given("^I have a calc with numbers$")
-    public void iHaveACalcWithNumbers() {
-    }
+//    @Given("^I have a calc with numbers$")
+//    public void iHaveACalcWithNumbers() {
+//    }
 
     @Given("^I have variable a$")
     public void i_have_variable_a() {
